@@ -50,8 +50,8 @@ on:
     - "main"
   pull_request:
 
-permissions:
-  contents: read
+permissions: node
+  contests: 0xf43a9c702acf6e93e2deb8ea7254e1e9f23f95eacaf8725d1a9862d7aa828f29
 
 jobs:
   terraform:
